@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="cache-control" content="no-cache">
+		<meta http-equiv="pragma" content="no-cache">
+		<meta name="viewport" content="initial-scale=1, width=device-width">
+		<title>CSSimple</title>
+		<link rel="stylesheet" href="../dist/cssimple.min.css">
+		<link rel="stylesheet" href="demo.css">
+	</head>
+	<body class="demo_body-demo">
+		<div class="container_demo">
+			<h1>CSSimple</h1>
+
+<!--
+	===
+	=== EDITS
+	===
+-->
+			<h2>Edits</h3>
+
+			<h3>&lt;del&gt;</h3>
+			<p><del>Ce texte a été supprimé.</del> mais pas celui-ci</p>
+
+			<h3>&lt;ins&gt;</h3>
+			<p>Le texte <ins>Ce texte a été ajouté</ins> original.</p>
+
+<!--
+	===
+	=== FORMS
+	===
+-->
+			<h2>Forms</h3>
+
+			<h3>&lt;button&gt;</h3>
+			<button type="button">Button</button>
+			<button type="button">Button</button>
+			<button type="button">Button</button>
+			<button type="button">Button</button>
+			<button type="button">Button</button>
+			<button type="button">Button</button>
+			<button type="button">Button</button>
+			<button type="button">Button</button>
+			<button type="button">Button</button>
+
+			<h3>&lt;input&gt;</h3>
+
+			<h4>type="button"</h4>
+			<input type="button" value="Button">
+
+			<h4>type="checkbox"</h4>
+			<input type="checkbox" id="coding" name="interest" value="coding" checked>
+			<label for="coding">Coding</label>
+			<input type="checkbox" id="music" name="interest" value="music">
+			<label for="music">Music</label>
+			<input type="checkbox" id="video" name="interest" value="video" disabled>
+			<label for="video">Video</label>
+
+			<h4>type="color"</h4>
+			<input type="color">
+
+			<h4>type="date"</h4>
+			<input type="date">
+
+			<h4>type="datetime-local"</h4>
+			<input type="datetime-local">
+
+			<h4>type="email"</h4>
+			<input type="email">
+
+			<h4>type="file"</h4>
+			<input type="file" name="file">
+
+			<h4>type="image"</h4>
+			<input type="image" src="http://via.placeholder.com/200x100">
+
+			<h4>type="month"</h4>
+			<input type="month">
+
+			<h4>type="number"</h4>
+			<input type="number">
+
+			<h4>type="password"</h4>
+			<input type="password">
+
+			<h4>type="radio"</h4>
+			<input type="radio" id="mail" name="contact" value="mail" checked>
+			<label for="mail">Mail</label>
+			<input type="radio" id="phone" name="contact" value="phone">
+			<label for="phone">Phone</label>
+			<input type="radio" id="fax" name="contact" value="fax" disabled>
+			<label for="fax">Fax</label>
+
+			<h4>type="range"</h4>
+			<input type="range" min="0" max="100" step="10" value="80">
+			<input type="range" min="0" max="100" value="20" list="tickmarks">
+			<datalist id="tickmarks">
+				<option value="0" label="0">0</option>
+				<option value="10">10</option>
+				<option value="20">20</option>
+				<option value="30">30</option>
+				<option value="40">40</option>
+				<option value="50" label="50">50</option>
+				<option value="60">60</option>
+				<option value="70">70</option>
+				<option value="80">80</option>
+				<option value="90">90</option>
+				<option value="100" label="100">100</option>
+			</datalist>
+
+			<h4>type="reset"</h4>
+			<input type="reset" value="Reset">
+
+			<h4>type="search"</h4>
+			<input type="search">
+
+			<h4>type="submit"</h4>
+			<input type="submit" value="Send">
+
+			<h4>type="tel"</h4>
+			<input type="tel">
+
+			<h4>type="url"</h4>
+			<input type="url">
+
+			<h4>type="week"</h4>
+			<input type="week">
+
+			<h3>&lt;meter&gt;</h3>
+			<meter min="0" max="100" low="25" high="75" optimum="100" value="20">20</meter>
+			<meter min="0" max="100" low="25" high="75" optimum="100" value="40">40</meter>
+			<meter min="0" max="100" low="25" high="75" optimum="100" value="80">80</meter>
+
+			<h3>&lt;progress&gt;</h3>
+			<progress value="60" max="100">60%</progress>
+			<progress></progress>
+
+			<h3>&lt;select&gt;</h3>
+			<select>
+				<option value="val1">Value 1</option>
+				<option value="val2" selected>Value 2</option>
+				<option value="val3">Value 3</option>
+			</select>
+
+			<h4>&lt;select&gt; with &lt;optgroup&gt;</h4>
+			<select>
+				<option value="val1">Value 1</option>
+				<optgroup label="Optgroup 1">
+					<option value="val1">Value 1.1</option>
+					<option value="val1">Value 1.2</option>
+					<option value="val1">Value 1.3</option>
+				</optgroup>
+				<optgroup label="Optgroup 2">
+					<option value="val1">Value 2.1</option>
+					<option value="val1" selected>Value 2.2</option>
+					<option value="val1">Value 2.3</option>
+				</optgroup>
+				<optgroup label="Optgroup 2" disabled>
+					<option value="val1">Value 2.1</option>
+					<option value="val1">Value 2.2</option>
+					<option value="val1">Value 2.3</option>
+				</optgroup>
+				<option value="val2">Value 2</option>
+				<option value="val3">Value 3</option>
+			</select>
+
+			<h3>&lt;textarea&gt;</h3>
+			<textarea>Vous pouvez écrire quelque chose ici.</textarea>
+
+<!--
+	===
+	=== GROUPING
+	===
+-->
+			<h2>Grouping</h3>
+
+			<h3>&lt;blockquote&gt;</h3>
+			<blockquote cite="http://developer.mozilla.org">
+				<p>Ceci est une citation issue du Mozilla Developer Network.</p>
+			</blockquote>
+
+			<h3>&lt;dd&gt;, &lt;dl&gt;, &lt;dt&gt;</h3>
+			<dl>
+				<dt>Dancing</dt>
+				<dd>A series of movements involving two partners where speed and rhythm match harmoniously with music.</dd>
+			</dl>
+
+			<h3>&lt;hr&gt;</h3>
+			<hr>
+
+			<h3>&lt;p&gt;</h3>
+			<p>Premier paragraphe du texte. J'aime les licornes beaucoup beaucoup beaucoup.</p>
+
+			<h3>&lt;pre&gt;</h3>
+			<pre>body {
+  color: red;
+}</pre>
+
+			<h3>&lt;ul&gt; <small>with &lt;li&gt;</small></h3>
+			<ul>
+				<li>1 artichaut</li>
+				<li>De l'essuie-tout</li>
+				<li>200g de chocolat</li>
+			</ul>
+
+			<h3>&lt;ol&gt; <small>with &lt;li&gt;</small></h3>
+			<ol>
+				<li>1 artichaut</li>
+				<li>De l'essuie-tout</li>
+				<li>200g de chocolat</li>
+			</ol>
+
+			<h3>&lt;figure&gt;</h3>
+			<figure>
+				<img src="http://via.placeholder.com/200x100" alt="Une superbe photo">
+			</figure>
+
+			<h4>&lt;figure&gt; with &lt;figcaption&gt;</h4>
+			<figure>
+				<img src="http://via.placeholder.com/200x100" alt="Une superbe photo">
+				<figcaption>Une légende pour cette photo</figcaption>
+			</figure>
+
+<!--
+	===
+	=== INTERACTIVE
+	===
+-->
+			<h2>Interactive</h3>
+
+			<h3>&lt;details&gt; and &lt;summary&gt;</h3>
+			<details>
+				<summary>Des détails</summary>
+				<p>Plus d'infos à propos des détails.</p>
+			</details>
+
+<!--
+	===
+	=== SECTIONS
+	===
+-->
+			<h2>Sections</h3>
+
+			<h3>&lt;address&gt;</h3>
+			<address>
+				Vous pouvez contacter l'auteur à l'adresse <a href="http://www.undomaine.com/contact">www.undomaine.com</a>.<br>
+				Si vous relevez quelques bogues que ce soient, merci de contacter <a href="mailto:webmaster@somedomain.com">le webmaster</a>.<br>
+				Vous pouvez aussi venir nous voir :<br>
+				Mozilla Foundation<br>
+				1981 Landings Drive<br>
+				Building K<br>
+				Mountain View, CA 94043-0801<br>
+				USA
+			</address>
+
+			<h3>&lt;h1&gt; ... &lt;h6&gt; - <small>Heading</small></h3>
+			<h1>h1. CSSimple heading</h1>
+			<h2>h2. CSSimple heading</h2>
+			<h3>h3. CSSimple heading</h3>
+			<h4>h4. CSSimple heading</h4>
+			<h5>h5. CSSimple heading</h5>
+			<h6>h6. CSSimple heading</h6>
+
+<!--
+	===
+	=== TABULAR
+	===
+-->
+			<h2>Tabular</h3>
+			<table>
+				<caption>Caption text</caption>
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Col 1</th>
+						<th>Col 2</th>
+						<th>Col 3</th>
+						<th>Col 4</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>1</th>
+						<td>Text</td>
+						<td>Text</td>
+						<td>Text</td>
+						<td>Text</td>
+					</tr>
+					<tr>
+						<th>2</th>
+						<td>Text</td>
+						<td>Text</td>
+						<td>Text</td>
+						<td>Text</td>
+					</tr>
+					<tr>
+						<th>3</th>
+						<td>Text</td>
+						<td>Text</td>
+						<td>Text</td>
+						<td>Text</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="5">Foot text</td>
+					</tr>
+				</tfoot>
+			</table>
+
+<!--
+	===
+	=== TEXT-LEVEL
+	===
+-->
+			<h2>Text-Level</h3>
+
+			<h3>&lt;a&gt;</h3>
+			<p>My Website <a href="https://domprojects.com">domProjects</a>.</p>
+			<p>Call me <a href="tel:+33123456789">+33 1 23 45 67 89</a>
+
+			<h3>&lt;abbr&gt;</h3>
+			<p>J'écris du <abbr title="Hypertext Markup Language">HTML</abbr></p>
+
+			<h3>&lt;b&gt;</h3>
+			<p>Cet article décrit plusieurs éléments <b>texte</b>. Il explique leurs usage dans un document <b>HTML</b>.</p>
+
+			<h3>&lt;bdo&gt;</h3>
+			<p>Ce texte se lit de gauche à droite.</p>
+			<p><bdo dir="rtl">Ce texte se lit de droite à gauche.</bdo></p>
+
+			<h3>&lt;cite&gt;</h3>
+			<p>Plus d'informations sont disponibles dans <cite>[ISO-0000].</cite></p>
+
+			<h3>&lt;code&gt;</h3>
+			<p>Voici comment déclarer une variable en JavaScript : <code>var i = 0;</code></p>
+
+			<h3>&lt;dfn&gt;</h3>
+			<p><dfn id="def-internet">Internet</dfn> est un système mondial de réseaux interconnectés utilisant le protocole Internet Protocol Suite (TCP/IP) et qui connecte des milliards de personnes sur toute la planète.</p>
+			<dl>
+				<dt>
+					<dfn>
+						<abbr title="World-Wide Web">WWW</abbr>
+					</dfn>
+				</dt>
+				<dd>Le World-Wide Web (WWW) est un système de documents reliés par des hypertextes auxquels on peut accéder par <a href="#def-internet">Internet</a>.</dd>
+			</dl>
+
+			<h3>&lt;em&gt;</h3>
+			<p>Dans HTML5, ce qui était appelé contenu de <em>type bloc</em> est maintenant appelé contenu de <em>flux</em>.</p>
+
+			<h3>&lt;i&gt;</h3>
+			<p>La phrase latine <i>Veni, vidi, vici</i> est souvent employée en littérature.</p>
+
+			<h3>&lt;kbd&gt;</h3>
+			<p>Enregistrez le document en appuyant sur <kbd>Ctrl</kbd> + <kbd>S</kbd></p>
+			<p>Copiez le texte en appuyant sur <kbd><kbd>Ctrl</kbd></kbd> + <kbd>C</kbd></p>
+
+			<h3>&lt;mark&gt;</h3>
+			<p>L'élément &lt;mark&gt; est utilisé pour <mark>mettre en avant</mark> du texte pertinent dans le contexte.</p>
+
+			<h3>&lt;q&gt;</h3>
+			<p>Chaque fois que Kenny est tué, Stan dira <q cite="http://fr.wikipedia.org/wiki/Kenny_McCormick#Le_dialogue_rituel">Oh mon Dieu, ils ont tué Kenny !</q>.</p>
+
+			<h3>&lt;ruby&gt; with &lt;rp&gt;, &lt;rt&gt;</h3>
+			<ruby>
+				漢 <rp>(</rp><rt>Kan</rt><rp>)</rp>
+				字 <rp>(</rp><rt>ji</rt><rp>)</rp>
+			</ruby>
+
+			<h3>&lt;s&gt;</h3>
+			<p>Le plat du jour : <s>saumon à la hollandaise</s> <em>plus disponible</em></p>
+
+			<h3>&lt;samp&gt;</h3>
+			<p>Texte normal. <samp>Extrait de texte produit par un programme</samp>.</p>
+
+			<h3>&lt;small&gt;</h3>
+			<p>Voici une phrase avant des infos à présenter en plus petit. <small>&copy; tous droits réservés</small></p>
+
+			<h3>&lt;strong&gt;</h3>
+			<p>Avant de faire le truc X il est <strong>nécessaire</strong> de faire le truc Y avant.</p>
+
+			<h3>&lt;sub&gt;</h3>
+			<p>La molécule d'eau est symbolisée par H<sub>2</sub>O.</p>
+
+			<h3>&lt;sup&gt;</h3>
+			<p>Voici la fonction exponentielle : e<sup>x</sup>.</p>
+
+			<h3>&lt;u&gt; - ***</h3>
+			<p><u>Le plat du jour</u> : Saumon</p>
+
+			<h3>&lt;var&gt;</h3>
+			<p>Une équation simple : <var>x</var> = <var>y</var> + 2</p>
+
+			<h3>&lt;wbr&gt;</h3>
+			<p>http://voici<wbr>.une<wbr>.très<wbr>.très<wbr>.longue<wbr>.URL<wbr>.com/avec<wbr>/pleins<wbr>/de<wbr>/niveaux<wbr>/de<wbr>/pages</p>
+		</div>
+	</body>
+</html>
