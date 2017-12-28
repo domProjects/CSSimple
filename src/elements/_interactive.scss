@@ -1,0 +1,37 @@
+//
+// Interactive elements
+//
+
+// Remove in HTML 5.2
+menu {
+
+}
+
+
+@if $enable-html4 {
+
+
+
+}
+
+
+@if $enable-html5 {
+
+	details {
+
+	}
+
+	dialog {
+
+	}
+
+	// Remove in HTML 5.2
+	menuitem {
+
+	}
+
+	summary {
+
+	}
+
+}
