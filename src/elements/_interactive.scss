@@ -4,7 +4,7 @@
 
 // Remove in HTML 5.2
 menu {
-
+	display: block;
 }
 
 
@@ -18,7 +18,7 @@ menu {
 @if $enable-html5 {
 
 	details {
-
+		display: block;
 	}
 
 	dialog {
@@ -31,7 +31,7 @@ menu {
 	}
 
 	summary {
-
+		display: list-item;
 	}
 
 }

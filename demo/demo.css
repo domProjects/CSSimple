@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
 
-
-
 .demo_body-demo {
   padding: 0;
   margin: 0;
@@ -11,8 +9,6 @@
 .container_demo {
   padding: 0 1rem;
 }
-
-
 
 .demo_body-index, .demo_h1, .demo_h2, .demo_h3, .demo_iframe, header, section {
   border: 0;

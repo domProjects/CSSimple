@@ -23,7 +23,9 @@ dt {
 }
 
 hr {
-
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
 }
 
 p {
@@ -31,7 +33,8 @@ p {
 }
 
 pre {
-
+	font-family: monospace, monospace;
+	font-size: 1em;
 }
 
 ul {
@@ -57,16 +60,17 @@ li {
 
 @if $enable-html5 {
 
-	figure {
-
+	figcaption {
+		display: block;
 	}
 
-	figcaption {
-
+	figure {
+		display: block;
+		margin: 1em 40px;
 	}
 
 	main {
-
+		display: block;
 	}
 
 }

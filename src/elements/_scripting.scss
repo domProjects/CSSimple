@@ -11,11 +11,11 @@
 @if $enable-html5 {
 
 	canvas {
-
+		display: inline-block;
 	}
 
 	template {
-
+		display: none;
 	}
 
 }

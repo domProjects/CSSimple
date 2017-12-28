@@ -3,15 +3,22 @@
 //
 
 a {
-
+	background-color: transparent;
+	-webkit-text-decoration-skip: objects;
 }
 
 abbr {
 
+	&[title] {
+		border-bottom: none;
+		text-decoration: underline;
+		text-decoration: underline dotted;
+	}
 }
 
 b {
-
+	font-weight: inherit;
+	font-weight: bolder;
 }
 
 bdo {
@@ -27,11 +34,12 @@ cite {
 }
 
 code {
-
+	font-family: monospace, monospace;
+	font-size: 1em;
 }
 
 dfn {
-
+	font-style: italic;
 }
 
 em {
@@ -43,7 +51,8 @@ i {
 }
 
 kbd {
-
+	font-family: monospace, monospace;
+	font-size: 1em;
 }
 
 q {
@@ -55,11 +64,12 @@ s {
 }
 
 samp {
-
+	font-family: monospace, monospace;
+	font-size: 1em;
 }
 
 small {
-
+	font-size: 80%;
 }
 
 span {
@@ -67,15 +77,26 @@ span {
 }
 
 strong {
-
+	font-weight: inherit;
+	font-weight: bolder;
 }
 
 sub {
+	bottom: -0.25em;
 
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
 }
 
 sup {
+	top: -0.5em;
 
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
 }
 
 u {
@@ -143,7 +164,8 @@ var {
 	}
 
 	mark {
-
+		background-color: #ff0;
+		color: #000;
 	}
 
 	rb {

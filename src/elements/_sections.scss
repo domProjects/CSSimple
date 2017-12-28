@@ -3,7 +3,7 @@
 //
 
 body {
-
+	margin: 0;
 }
 
 address {
@@ -11,7 +11,8 @@ address {
 }
 
 h1 {
-
+	font-size: 2em;
+	margin: 0.67em 0;
 }
 
 h2 {
@@ -47,27 +48,27 @@ h6 {
 @if $enable-html5 {
 
 	article {
-
+		display: block;
 	}
 
 	aside {
-
+		display: block;
 	}
 
 	footer {
-
+		display: block;
 	}
 
 	header {
-
+		display: block;
 	}
 
 	nav {
-
+		display: block;
 	}
 
 	section {
-
+		display: block;
 	}
 
 }
