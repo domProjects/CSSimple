@@ -119,6 +119,8 @@ $text-muted:                $gray-600 !default;
 
 $dt-font-weight:            $font-weight-bold !default;
 
+$nested-kbd-font-weight:    $font-weight-bold !default;
+
 
 // Tables
 //
@@ -128,3 +130,16 @@ $table-bg:                   transparent !default;
 
 $table-border-width:         $border-width !default;
 $table-border-color:         $gray-300 !default;
+
+
+// Code
+$code-font-size:             87.5% !default;
+$code-color:                 $pink !default;
+
+$kbd-padding-y:              .2rem !default;
+$kbd-padding-x:              .4rem !default;
+$kbd-font-size:              $code-font-size !default;
+$kbd-color:                  $white !default;
+$kbd-bg:                     $gray-900 !default;
+
+$pre-color:                  $gray-900 !default;

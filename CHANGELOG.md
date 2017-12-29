@@ -4,6 +4,7 @@
 
 - [ADD] reboot Bootstrap v4.0.0 beta 3
 - [ADD] basic style element tabular
+- [ADD] style code elements in grouping & text-level
 
 ## 0.2.0 (2017-12-28)
 
