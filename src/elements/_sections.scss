@@ -20,36 +20,69 @@ address {
 }
 
 h1 {
-	font-size: 2em;
-	margin: 0.67em 0;
-
+	color: $headings-color;
+	font-family: $headings-font-family;
+	font-weight: $headings-font-weight;
+	line-height: $headings-line-height;
 	margin-top: 0;
 	margin-bottom: $headings-margin-bottom;
+
+	font-size: $h1-font-size;
 }
 
 h2 {
+	color: $headings-color;
+	font-family: $headings-font-family;
+	font-weight: $headings-font-weight;
+	line-height: $headings-line-height;
 	margin-top: 0;
 	margin-bottom: $headings-margin-bottom;
+
+	font-size: $h2-font-size;
 }
 
 h3 {
+	color: $headings-color;
+	font-family: $headings-font-family;
+	font-weight: $headings-font-weight;
+	line-height: $headings-line-height;
 	margin-top: 0;
 	margin-bottom: $headings-margin-bottom;
+
+	font-size: $h3-font-size;
 }
 
 h4 {
+	color: $headings-color;
+	font-family: $headings-font-family;
+	font-weight: $headings-font-weight;
+	line-height: $headings-line-height;
 	margin-top: 0;
 	margin-bottom: $headings-margin-bottom;
+
+	font-size: $h4-font-size;
 }
 
 h5 {
+	color: $headings-color;
+	font-family: $headings-font-family;
+	font-weight: $headings-font-weight;
+	line-height: $headings-line-height;
 	margin-top: 0;
 	margin-bottom: $headings-margin-bottom;
+
+	font-size: $h5-font-size;
 }
 
 h6 {
+	color: $headings-color;
+	font-family: $headings-font-family;
+	font-weight: $headings-font-weight;
+	line-height: $headings-line-height;
 	margin-top: 0;
 	margin-bottom: $headings-margin-bottom;
+
+	font-size: $h6-font-size;
 }
 
 

@@ -109,7 +109,8 @@ samp {
 }
 
 small {
-	font-size: 80%;
+	font-size: $small-font-size;
+	font-weight: $font-weight-normal;
 }
 
 span {
@@ -204,8 +205,9 @@ var {
 	}
 
 	mark {
-		background-color: #ff0;
+		background-color: $mark-bg;
 		color: #000;
+		padding: $mark-padding;
 	}
 
 	rb {
