@@ -3,7 +3,7 @@
 //
 
 area {
-
+	touch-action: manipulation;
 }
 
 iframe {
@@ -12,6 +12,7 @@ iframe {
 
 img {
 	border-style: none;
+	vertical-align: middle;
 }
 
 map {

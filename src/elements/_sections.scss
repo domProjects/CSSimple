@@ -3,43 +3,60 @@
 //
 
 body {
+	background-color: $body-bg;
+	color: $body-color;
+	font-family: $font-family-base;
+	font-size: $font-size-base;
+	font-weight: $font-weight-base;
+	line-height: $line-height-base;
 	margin: 0;
+	text-align: left;
 }
 
 address {
-
+	font-style: normal;
+	line-height: inherit;
+	margin-bottom: 1rem;
 }
 
 h1 {
 	font-size: 2em;
 	margin: 0.67em 0;
+
+	margin-top: 0;
+	margin-bottom: $headings-margin-bottom;
 }
 
 h2 {
-
+	margin-top: 0;
+	margin-bottom: $headings-margin-bottom;
 }
 
 h3 {
-
+	margin-top: 0;
+	margin-bottom: $headings-margin-bottom;
 }
 
 h4 {
-
+	margin-top: 0;
+	margin-bottom: $headings-margin-bottom;
 }
 
 h5 {
-
+	margin-top: 0;
+	margin-bottom: $headings-margin-bottom;
 }
 
 h6 {
-
+	margin-top: 0;
+	margin-bottom: $headings-margin-bottom;
 }
 
 
 @if $enable-html4 {
 
 	hgroup {
-
+		display: block;
 	}
 
 }

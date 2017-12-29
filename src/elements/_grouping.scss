@@ -3,11 +3,12 @@
 //
 
 blockquote {
-
+	margin: 0 0 1rem;
 }
 
 dd {
-
+	margin-bottom: .5rem;
+	margin-left: 0;
 }
 
 div {
@@ -15,11 +16,12 @@ div {
 }
 
 dl {
-
+	margin-top: 0;
+	margin-bottom: 1rem;
 }
 
 dt {
-
+	font-weight: $dt-font-weight;
 }
 
 hr {
@@ -29,20 +31,28 @@ hr {
 }
 
 p {
-
+	margin-top: 0;
+	margin-bottom: $paragraph-margin-bottom;
 }
 
 pre {
 	font-family: monospace, monospace;
 	font-size: 1em;
+
+	margin-top: 0;
+	margin-bottom: 1rem;
+	overflow: auto;
+	-ms-overflow-style: scrollbar;
 }
 
 ul {
-
+	margin-top: 0;
+	margin-bottom: 1rem;
 }
 
 ol {
-
+	margin-top: 0;
+	margin-bottom: 1rem;
 }
 
 li {
@@ -67,6 +77,8 @@ li {
 	figure {
 		display: block;
 		margin: 1em 40px;
+
+		margin: 0 0 1rem;
 	}
 
 	main {

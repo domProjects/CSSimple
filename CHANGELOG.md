@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.0 (2017-12-29)
+
+- [ADD] reboot Bootstrap v4.0.0 beta 3
+
 ## 0.2.0 (2017-12-28)
 
 - [ADD] demo for elements HTML

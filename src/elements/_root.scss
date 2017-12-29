@@ -6,16 +6,36 @@
 
 }
 
+* {
+	box-sizing: border-box;
+
+	&::before {
+		box-sizing: border-box;
+	}
+
+	&::after {
+		box-sizing: border-box;
+	}
+}
+
 html {
+	font-family: sans-serif;
 	line-height: 1.15;
-		-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
+		-ms-text-size-adjust: 100%;
+	-ms-overflow-style: scrollbar; // 5
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
 	& [type="button"] {
 		-webkit-appearance: button;
 	}
 }
 
+@at-root {
+	@-ms-viewport {
+		width: device-width;
+	}
+}
 
 @if $enable-html4 {
 

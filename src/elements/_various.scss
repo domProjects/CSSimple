@@ -6,6 +6,17 @@
 	display: none;
 }
 
+[role="button"] {
+	touch-action: manipulation;
+}
+
+[tabindex="-1"] {
+
+	&:focus {
+		outline: 0 !important;
+	}
+}
+
 
 @if $enable-scrollbar {
 

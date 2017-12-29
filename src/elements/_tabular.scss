@@ -3,11 +3,15 @@
 //
 
 table {
-
+	border-collapse: collapse;
 }
 
 caption {
-
+	color: $text-muted;
+	padding-bottom: $table-cell-padding;
+ 	padding-top: $table-cell-padding;
+	text-align: left;
+	caption-side: bottom;
 }
 
 col {
@@ -31,7 +35,7 @@ tfoot {
 }
 
 th {
-
+	text-align: inherit;
 }
 
 thead {

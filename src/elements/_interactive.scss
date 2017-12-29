@@ -31,7 +31,9 @@ menu {
 	}
 
 	summary {
+		cursor: pointer;
 		display: list-item;
+		touch-action: manipulation;
 	}
 
 }
